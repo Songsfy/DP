@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "author": "1937444194@qq.com <1937444194>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "antd": "^5.11.1",
+    "babel-plugin-react-css-modules": "^5.2.6",
+    "classnames": "^2.3.2",
+    "less-loader": "^11.1.3",
+    "lodash": "^4.17.21",
+    "postcss-less": "^6.0.0",
+    "postcss-loader": "^7.3.3",
+    "redux-persist": "^6.0.0",
+    "umi": "^4.0.64"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@umijs/plugins": "^4.0.70",
+    "typescript": "^5.0.0"
+  }
+}
